@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RockFord GYM</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="C:\Users\SAMRAT\Desktop\Full Stack\web development bootcamp\GYM\fontawesome-free-6.2.0-web\css\all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gym.css">
+    <script src="js/bootstrap.min.js"></script>
+     <script src="gym.js"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- left logo -->
+        <div class="left">
+                <img src="logo.png" alt="">
+                <div>Rock Ford Gym</div>
+        </div>
+        <div class="mid">
+            <!-- nav bar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- buttons -->
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best Gym of Patna Now</h1>
+        <form action="noaction.php" name="frm">
+            <div class="form-group">
+                <input type="text" name="t1" id="" placeholder="Enter Your Name">
+                <th><span id="error1"></span></th>
+            </div>
+            <div class="form-group">
+                <input type="text" name="t2" id="error2" placeholder="Enter Your Age">
+                <th><span id="error2"></span></th>
+            </div>
+            <div class="form-group">
+                <input type="text" name="t3" id="error3" placeholder="Enter Your Gender">
+                <th><span id="error3"></span></th>
+            </div>
+            <div class="form-group">
+                <input type="text" name="t4" id="error4" placeholder="Enter Your Mobile No">
+                <th><span id="error4"></span></th>
+            </div>
+            <div class="form-group">
+                <input type="text" name="t5" id="error5" placeholder="Eligible" readonly="t5">
+                <th><span id="error5"></span></th>
+            </div>
+            <button class="btn"type="button" name="btn" onclick="check1();"value="Harry Fitness">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
